@@ -14,6 +14,12 @@
 		990924E82C6063A200BA46D9 /* paper_textureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990924E72C6063A200BA46D9 /* paper_textureTests.swift */; };
 		990924F22C6063A200BA46D9 /* paper_textureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990924F12C6063A200BA46D9 /* paper_textureUITests.swift */; };
 		990924F42C6063A200BA46D9 /* paper_textureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990924F32C6063A200BA46D9 /* paper_textureUITestsLaunchTests.swift */; };
+		990925012C617F1A00BA46D9 /* TopicData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990925002C617F1A00BA46D9 /* TopicData.swift */; };
+		990925032C617F8F00BA46D9 /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990925022C617F8F00BA46D9 /* Topic.swift */; };
+		990925052C617FF200BA46D9 /* TopicRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990925042C617FF200BA46D9 /* TopicRow.swift */; };
+		990925072C61854B00BA46D9 /* ExampleOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990925062C61854B00BA46D9 /* ExampleOneView.swift */; };
+		990925092C61856800BA46D9 /* ExampleTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990925082C61856800BA46D9 /* ExampleTwoView.swift */; };
+		9909250B2C61859F00BA46D9 /* ExampleThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9909250A2C61859F00BA46D9 /* ExampleThreeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,12 @@
 		990924ED2C6063A200BA46D9 /* paper-textureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "paper-textureUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		990924F12C6063A200BA46D9 /* paper_textureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paper_textureUITests.swift; sourceTree = "<group>"; };
 		990924F32C6063A200BA46D9 /* paper_textureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paper_textureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		990925002C617F1A00BA46D9 /* TopicData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicData.swift; sourceTree = "<group>"; };
+		990925022C617F8F00BA46D9 /* Topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
+		990925042C617FF200BA46D9 /* TopicRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicRow.swift; sourceTree = "<group>"; };
+		990925062C61854B00BA46D9 /* ExampleOneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleOneView.swift; sourceTree = "<group>"; };
+		990925082C61856800BA46D9 /* ExampleTwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTwoView.swift; sourceTree = "<group>"; };
+		9909250A2C61859F00BA46D9 /* ExampleThreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleThreeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +112,12 @@
 				990924D92C6063A200BA46D9 /* Assets.xcassets */,
 				990924DB2C6063A200BA46D9 /* paper_texture.entitlements */,
 				990924DC2C6063A200BA46D9 /* Preview Content */,
+				990925002C617F1A00BA46D9 /* TopicData.swift */,
+				990925022C617F8F00BA46D9 /* Topic.swift */,
+				990925042C617FF200BA46D9 /* TopicRow.swift */,
+				990925062C61854B00BA46D9 /* ExampleOneView.swift */,
+				990925082C61856800BA46D9 /* ExampleTwoView.swift */,
+				9909250A2C61859F00BA46D9 /* ExampleThreeView.swift */,
 			);
 			path = "paper-texture";
 			sourceTree = "<group>";
@@ -259,8 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9909250B2C61859F00BA46D9 /* ExampleThreeView.swift in Sources */,
+				990925072C61854B00BA46D9 /* ExampleOneView.swift in Sources */,
 				990924D82C6063A100BA46D9 /* ContentView.swift in Sources */,
+				990925092C61856800BA46D9 /* ExampleTwoView.swift in Sources */,
+				990925032C617F8F00BA46D9 /* Topic.swift in Sources */,
 				990924D62C6063A100BA46D9 /* paper_textureApp.swift in Sources */,
+				990925052C617FF200BA46D9 /* TopicRow.swift in Sources */,
+				990925012C617F1A00BA46D9 /* TopicData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
