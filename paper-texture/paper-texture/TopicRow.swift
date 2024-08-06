@@ -1,9 +1,7 @@
-//
-//  TopicRow.swift
-//  paper-texture
-//
-//  Created by Eberhardt Macbook Air on 8/5/24.
-//
+/*
+See the License.txt file for this sample’s licensing information.
+*/
+
 import SwiftUI
 
 struct TopicRowView: View {
@@ -36,4 +34,3 @@ struct TopicRowView_Previews: PreviewProvider {
         TopicRowView(title: "Animations", description: "Discover how to use animations to move shapes around the scene", systemIcon: "circle.fill")
     }
 }
-

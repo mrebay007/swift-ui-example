@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		990924D62C6063A100BA46D9 /* paper_textureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990924D52C6063A100BA46D9 /* paper_textureApp.swift */; };
-		990924D82C6063A100BA46D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990924D72C6063A100BA46D9 /* ContentView.swift */; };
+		990924D82C6063A100BA46D9 /* TopicList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990924D72C6063A100BA46D9 /* TopicList.swift */; };
 		990924DA2C6063A200BA46D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 990924D92C6063A200BA46D9 /* Assets.xcassets */; };
 		990924DE2C6063A200BA46D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 990924DD2C6063A200BA46D9 /* Preview Assets.xcassets */; };
 		990924E82C6063A200BA46D9 /* paper_textureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990924E72C6063A200BA46D9 /* paper_textureTests.swift */; };
 		990924F22C6063A200BA46D9 /* paper_textureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990924F12C6063A200BA46D9 /* paper_textureUITests.swift */; };
 		990924F42C6063A200BA46D9 /* paper_textureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990924F32C6063A200BA46D9 /* paper_textureUITestsLaunchTests.swift */; };
-		990925012C617F1A00BA46D9 /* TopicData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990925002C617F1A00BA46D9 /* TopicData.swift */; };
+		990925012C617F1A00BA46D9 /* TopicOrganizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990925002C617F1A00BA46D9 /* TopicOrganizer.swift */; };
 		990925032C617F8F00BA46D9 /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990925022C617F8F00BA46D9 /* Topic.swift */; };
 		990925052C617FF200BA46D9 /* TopicRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990925042C617FF200BA46D9 /* TopicRow.swift */; };
 		990925072C61854B00BA46D9 /* ExampleOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990925062C61854B00BA46D9 /* ExampleOneView.swift */; };
@@ -42,7 +42,7 @@
 /* Begin PBXFileReference section */
 		990924D22C6063A100BA46D9 /* paper-texture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "paper-texture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		990924D52C6063A100BA46D9 /* paper_textureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paper_textureApp.swift; sourceTree = "<group>"; };
-		990924D72C6063A100BA46D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		990924D72C6063A100BA46D9 /* TopicList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicList.swift; sourceTree = "<group>"; };
 		990924D92C6063A200BA46D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		990924DB2C6063A200BA46D9 /* paper_texture.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = paper_texture.entitlements; sourceTree = "<group>"; };
 		990924DD2C6063A200BA46D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		990924ED2C6063A200BA46D9 /* paper-textureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "paper-textureUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		990924F12C6063A200BA46D9 /* paper_textureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paper_textureUITests.swift; sourceTree = "<group>"; };
 		990924F32C6063A200BA46D9 /* paper_textureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paper_textureUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		990925002C617F1A00BA46D9 /* TopicData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicData.swift; sourceTree = "<group>"; };
+		990925002C617F1A00BA46D9 /* TopicOrganizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicOrganizer.swift; sourceTree = "<group>"; };
 		990925022C617F8F00BA46D9 /* Topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
 		990925042C617FF200BA46D9 /* TopicRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicRow.swift; sourceTree = "<group>"; };
 		990925062C61854B00BA46D9 /* ExampleOneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleOneView.swift; sourceTree = "<group>"; };
@@ -108,11 +108,11 @@
 			isa = PBXGroup;
 			children = (
 				990924D52C6063A100BA46D9 /* paper_textureApp.swift */,
-				990924D72C6063A100BA46D9 /* ContentView.swift */,
+				990924D72C6063A100BA46D9 /* TopicList.swift */,
 				990924D92C6063A200BA46D9 /* Assets.xcassets */,
 				990924DB2C6063A200BA46D9 /* paper_texture.entitlements */,
 				990924DC2C6063A200BA46D9 /* Preview Content */,
-				990925002C617F1A00BA46D9 /* TopicData.swift */,
+				990925002C617F1A00BA46D9 /* TopicOrganizer.swift */,
 				990925022C617F8F00BA46D9 /* Topic.swift */,
 				990925042C617FF200BA46D9 /* TopicRow.swift */,
 				990925062C61854B00BA46D9 /* ExampleOneView.swift */,
@@ -279,12 +279,12 @@
 			files = (
 				9909250B2C61859F00BA46D9 /* ExampleThreeView.swift in Sources */,
 				990925072C61854B00BA46D9 /* ExampleOneView.swift in Sources */,
-				990924D82C6063A100BA46D9 /* ContentView.swift in Sources */,
+				990924D82C6063A100BA46D9 /* TopicList.swift in Sources */,
 				990925092C61856800BA46D9 /* ExampleTwoView.swift in Sources */,
 				990925032C617F8F00BA46D9 /* Topic.swift in Sources */,
 				990924D62C6063A100BA46D9 /* paper_textureApp.swift in Sources */,
 				990925052C617FF200BA46D9 /* TopicRow.swift in Sources */,
-				990925012C617F1A00BA46D9 /* TopicData.swift in Sources */,
+				990925012C617F1A00BA46D9 /* TopicOrganizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
