@@ -7,9 +7,34 @@
 
 import SwiftUI
 
+let backgroundGradient = LinearGradient(
+    colors: [Color.red, Color.blue],
+    startPoint: .top, endPoint: .bottom)
+let backgroundImage = Image("Background-01")
+
 struct ExampleTwoView: View {
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            backgroundImage
+            VStack {
+                HStack {
+                    RoundedRectangle(cornerRadius: 8)
+                        .fill(Color.black)
+                        .frame(maxWidth: 64, maxHeight: 64)
+                    RoundedRectangle(cornerRadius: 8)
+                        .fill(Gradient(colors: [.orange, .red]))
+                        .frame(maxWidth: 64, maxHeight: 64)
+                    RoundedRectangle(cornerRadius: 8)
+                        .fill(Gradient(colors: [.green, .blue]))
+                        .frame(maxWidth: 64, maxHeight: 64)
+                    RoundedRectangle(cornerRadius: 8)
+                        .fill(Color.black)
+                        .frame(maxWidth: 64, maxHeight: 64)
+                }
+            }
+        }
+        .ignoresSafeArea()
     }
 }
 

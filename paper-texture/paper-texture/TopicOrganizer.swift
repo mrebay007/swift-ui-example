@@ -29,19 +29,19 @@ struct TopicData {
         Topic(
             title: "Basic Shapes",
             description: "Experiment with different shape types.",
-            systemSymbol: "square.on.circle",
+            systemSymbol: "gauge.with.dots.needle.67percent",
             destination: .exampleOne
         ),
         Topic(
             title: "Basic Animation",
             description: "See an example of a basic animation.",
-            systemSymbol: "heart",
+            systemSymbol: "heart.text.square",
             destination: .exampleTwo
         ),
         Topic(
             title: "Spinning Animation",
             description: "View a basic shape spinning on its x axis.",
-            systemSymbol: "arrow.left.arrow.right.circle",
+            systemSymbol: "waveform.path.ecg",
             destination: .exampleThree
         ),
     ]

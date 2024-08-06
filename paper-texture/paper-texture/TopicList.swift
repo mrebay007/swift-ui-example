@@ -19,7 +19,7 @@ struct TopicList: View {
                             TopicRowView(title: row.title, description: row.description, systemIcon: row.systemSymbol)
                         })
                         .fixedSize(horizontal: false, vertical: true)
-                        .listRowInsets(.init(top: 15, leading: 15, bottom: 15, trailing: 15))
+                        .listRowInsets(.init(top: 16, leading: 16, bottom: 16, trailing: 16))
                     
                 }
             }
@@ -28,7 +28,7 @@ struct TopicList: View {
             
         }
         .safeAreaInset(edge: .top, spacing: 0) {
-            Color.clear.frame(height: 15)
+            Color.clear.frame(height: 16)
         }
     }
     

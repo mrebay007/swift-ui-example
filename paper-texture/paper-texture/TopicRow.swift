@@ -14,7 +14,7 @@ struct TopicRowView: View {
             Image(systemName: systemIcon)
                 .font(.title2)
                 .foregroundColor(.accentColor)
-                .frame(minWidth: 30, minHeight: 20)
+                .frame(minWidth: 32, minHeight: 16)
                 .padding(.trailing, 4)
             VStack(alignment: .leading, spacing: 0) {
                 Text(title)
@@ -31,6 +31,6 @@ struct TopicRowView: View {
 
 struct TopicRowView_Previews: PreviewProvider {
     static var previews: some View {
-        TopicRowView(title: "Animations", description: "Discover how to use animations to move shapes around the scene", systemIcon: "circle.fill")
+        TopicRowView(title: "Placeholder Title", description: "Placeholder Text", systemIcon: "circle.fill")
     }
 }
