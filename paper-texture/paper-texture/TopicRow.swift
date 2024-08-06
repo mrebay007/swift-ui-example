@@ -15,7 +15,7 @@ struct TopicRowView: View {
                 .font(.title2)
                 .foregroundColor(.accentColor)
                 .frame(minWidth: 32, minHeight: 16)
-                .padding(.trailing, 4)
+                .padding(.trailing, 2)
             VStack(alignment: .leading, spacing: 0) {
                 Text(title)
                     .font(Font.system(size: 20.0, weight: .semibold, design: .default))

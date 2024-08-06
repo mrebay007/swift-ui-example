@@ -27,22 +27,16 @@ enum Destination: String, CaseIterable {
 struct TopicData {
     static var homeContent = [
         Topic(
-            title: "Basic Shapes",
-            description: "Experiment with different shape types.",
-            systemSymbol: "gauge.with.dots.needle.67percent",
+            title: "Top Bar Social Buttons",
+            description: "Article post with a top bar Social section",
+            systemSymbol: "uiwindow.split.2x1",
             destination: .exampleOne
         ),
         Topic(
-            title: "Basic Animation",
-            description: "See an example of a basic animation.",
-            systemSymbol: "heart.text.square",
+            title: "Share Sheet Social Buttons",
+            description: "Article with Social Buttons within a Share sheet to interupt the OS sheet",
+            systemSymbol: "square.and.arrow.up",
             destination: .exampleTwo
-        ),
-        Topic(
-            title: "Spinning Animation",
-            description: "View a basic shape spinning on its x axis.",
-            systemSymbol: "waveform.path.ecg",
-            destination: .exampleThree
         ),
     ]
 }

@@ -16,7 +16,7 @@ struct paper_textureApp: App {
             NavigationSplitView {
                 TopicList(contentSource: TopicData.homeContent)
             } detail: {
-                Text("Please select a destination")
+                Text("Choose an example")
             }
         }
     }

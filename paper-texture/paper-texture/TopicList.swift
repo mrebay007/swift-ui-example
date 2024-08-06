@@ -24,7 +24,7 @@ struct TopicList: View {
                 }
             }
             .listStyle(InsetGroupedListStyle())
-            .navigationTitle("Animating Shapes")
+            .navigationTitle("Select an example")
             
         }
         .safeAreaInset(edge: .top, spacing: 0) {
