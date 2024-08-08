@@ -24,7 +24,7 @@ struct TopicList: View {
                 }
             }
             .listStyle(InsetGroupedListStyle())
-            .navigationTitle("Select an example")
+            .navigationTitle("Select An Example")
             
         }
         .safeAreaInset(edge: .top, spacing: 0) {

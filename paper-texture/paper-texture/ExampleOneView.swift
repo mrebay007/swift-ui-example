@@ -63,7 +63,7 @@ struct ExampleOneView: View {
                             .scaledToFit()
                             .frame(width: 96, height: 96, alignment: .center)
                             .foregroundColor(.white)
-                        Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut")
+                        Text("Share Article Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut")
                             .font(.system(size: 24.0))
                             .fontDesign(.serif)
                             .lineSpacing(10)
